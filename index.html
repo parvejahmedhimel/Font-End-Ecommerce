@@ -2,234 +2,438 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Parvej Ahmed" content="A simple webpage styled with Tailwind CSS">
-    <meta name="keywords" content="Tailwind CSS, Web Design, Responsive Design">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Website | Parvej Ahmed</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
-    
+    <title>My second Assingment</title>
+
+<link rel="shortcut icon" href="assets/dawat-logo.png" type="image/x-icon">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<meta name="keywords" content=" assignment">
+<meta name="description" content="My second Assingment">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-<body class="bg-linear-to-r from-sky-200 to-indigo-500 min-h-[300px]">
+<body  class="font-jakarta  bg-gradient-to-b from-white to-[#EFEBE3] min-h-screen">
+
+    <!-- nav for header  -->
 
 
-
-
-    <header class=" flex items-center justify-between bg-white
-    ">
-
-
+    <nav class="flex  justify-between items-center w-[80%] mx-auto mt-4  bg-[#f8f7f706] font-jakarta">
 
 <div>
+    <img src="assets/logo-green.png" class="w-[100px]" alt="logo">
+</div>
 
-<div class="flex items-center gap-2"> <img src="../assets/logo.png" width="80px" alt=""> <h2 class=" font-semibold text-center text-2xl text-blue-800">Tailwind Css</h2></div>
+<div class="flex  hidden  lg:inline ">
+<a class=" ml-59" href="">Product</a><a class=" ml-10" href="">Services</a><a class="ml-8" href="">Contact Us</a>
+</div>
+
+
+<div class="gap-2  ">
+<div class="hidden  lg:inline">
+<i class="fa-solid fa-magnifying-glass mr-3 hidden md:inline lg:inline"></i>
+
+<i class="fa-solid fa-cart-shopping mr-3 hidden md:inline lg:inline"></i>
+</div>
+<button class="border-2 border-[#009863] hidden md:inline lg:inline px-3 rounded-sm hover:border-[#ff000000] hover:bg-[#009863] hover:text-white">Login</button>
+
+
+<button class="border-2 text-white bg-[#009863] hidden md:inline lg:inline  border-[#00986300] px-3 rounded-sm hover:border-[#009863] hover:bg-[#00986300] will-change-transform hover:text-black">Register</button>
+
+<i class="fa-solid fa-bars bg-[#EFEBE3] visible md:invisible lg:invisible  p-2 rounded-sm hover:bg-transparent hover:border-[#252da1] hover:border-2    "></i>
+</div>
+
+    </nav>
+
+<!-- nav end  -->
+
+
+<!-- main body   -->
+ 
+<div>
+
+<div class=" w-[80%]  mx-auto">
+
+<!-- start -->
+
+
+<!-- hero section  -->
+
+
+<div class="items-center text-center w-[100%] md:w-[60%] lg:w-[60%] mx-auto">
+
+<div class="w-[100%] md:w-[80%] lg:w-[80%] mx-auto mt-[100px] text-center">
+    <h2 class="font-semibold text-2xl lg:text-4xl ">Freshness <span class="text-[#009863]">You Can <br>
+Count</span> On, Prices You’ll Love!</h2>
+<p class="mt-[10px] md: lg:mt-[30px]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+</div>
+
+<div><img src="assets/hero-img.png" alt="hero pics"></div>
+
+</div>
+
+</div>
+
+<!-- hero2-services  -->
+
+<div class="bg-white  pb-[100px]">
+<div class="w-[80%] mx-auto pt-[80px] text-center md:text-left lg:text-left"><h2 class="font-bold text-2xl mx-4 text-[#009863] " >Services</h2></div>
+<div class=" w-[80%]  mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5 p-2">
+
+<div class="bg-[#EFEBE3] rounded-[20px] text-center place-items-center mt-">
+
+    <img class="mt-6" src="assets/support.png" alt="servies">
+    <h2 class="mt-3 mb- font-semibold">24/7Services</h2>
+    <p class="mx-4 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+</div>
+<div class="bg-[#EFEBE3] rounded-[20px] text-center place-items-center mt-">
+
+    <img class="mt-6" src="assets/fast-delivery.png" alt="servies">
+    <h2 class="mt-3 mb- font-semibold">Fast Delivery</h2>
+    <p class="mx-4 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+</div><div class="bg-[#EFEBE3] rounded-[20px] text-center place-items-center mt-">
+
+    <img class="mt-6" src="assets/healthy-100.png" alt="servies">
+    <h2 class="mt-3 mb- font-semibold">Healthy Products</h2>
+    <p class="mx-4 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- hero3 -->
+<div class="w-[80%] mx-auto pb-38">
+    <h2 class="font-semibold text-3xl mb-9 text-[#009863]  pt-[80px] text-center md:text-left lg:text-left ">Products</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-x-26 gap-y-8">
+
+<!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-tomato.png"" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Tomato 500g</h3>
+    <h4>$39.99</h4>
+ </div>
 
 
 </div>
+
+
+<!-- end this-->
+
+<!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-onion.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Onion 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-tomato.png"" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Tomato 500g</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-onion.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Onion 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-tomato.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Tomato 500g</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-onion.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Onion 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-potato.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Potato 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-onion.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Onion 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-onion.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Onion 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-potato.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Potato 1 KG</h3>
+    <h4>$639.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-onion.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Onion 1 KG</h3>
+    <h4>$39.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ <!-- 1st -->
+
+<div class="flex  bg-white rounded-[10px] items-center mr-0 ">
+ <div><img class="bg-[#EFEBE3] rounded-lg mr-5 ml-2 my-3" src="assets/product-potato.png" alt=""></div>
+ <div class="mr-0">
+<div class="flex items-center "><i class="fa-solid fa-star text-yellow-400 mr-1"></i> <h4>4.5</h4>
+</div>
+    <h3 class="font-semibold">Potato 1 KG</h3>
+    <h4>$639.99</h4>
+ </div>
+
+
+</div>
+
+
+<!-- end this-->
+ 
+
+
+
+
+
+</div>
+
+
+</div>
+<!-- kella khatam hook  baba ( hasir emoji ) -->
+
+
+ <!-- hero 4 -->
+
+
+<div class="bg-white  pb-[200px]">
+<div class="w-[100%] md:w-[80%] lg:w-[80%] mx-auto pt-[80px] text-center md:text-left lg:text-left"><h2 class="font-bold text-2xl mx-4 gap-2 text-[#009863] " >Arrival & Offer</h2></div>
+<div class="w-[98%] md:w-[80%] lg:w-[80%] mx-auto md:flex lg:flex gap-8 mt-5 p-2 ">
+ <!-- 1st banner -->
+<div class="flex justify-between h-[300px] bg-[#115414] w-[100%] md:w-[58%] lg:w-[58%] rounded-[20px] text-center place-items-center mb-10">
+
+<div>
+<img class="mt-10" src="assets/dawat-logo.png" alt="">
+<button class="bg-[#63B76D] px-6 py-2 rounded-sm text-gray-200 mt-10">Cook Exotic Dishes</button>
+<h2 class="font-semibold text-white mt-3">UPTO <SPAN class="font-extrabold">20% OFF</SPAN> 20% OFF</h2>
+
+</div>
+
+<div><img class="w-[200px]" src="assets/product-dawat.png" alt=""></div>
    
 
-<div class="flex items-center justify-between space-x-4 mr-3">
 
-
-   <a class="text-1xl font-bold text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]" href="index.html">Home</a>
-   <a class="text-1xl font-bold text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]"href="index.html">Docs</a>
-   <a class="text-1xl font-bold text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]"href="index.html"> Showcase</a>
-   <a class="text-1xl font-bold text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]"href="index.html">About Us</a>
 </div>
 
-</header>
+
+
+
+
+<!-- 2n banner  -->
+
+<div class=" flex justify-between h-[300px] bg-[#102861] w-[100%] md:w-[38%] lg:w-[38%] rounded-[20px] text-center place-items-center mx-auto">
+
+   
+   
+<div class="ml-7">
+<img class="mt-10" src="assets/indiagate-logo.png" alt="">
+<button class="bg-[#2A4D97] px-6 py-2 rounded-sm ml-0 text-gray-200 mt-10">World's no.1 Rich</button>
+<h2 class="font-semibold text-white mt-3  mb-10">UPTO <SPAN class="font-extrabold">40% OFF</SPAN> 20% OFF</h2>
+
+</div>
+
     
+    <div><img class="w-[150px] p-4" src="assets/product-indiagate.png" alt=""></div>
 
 
 
-
-
-<div class="flex items-center justify-center h-[90vh] bg-gradient-to-r from-blue-500 to-purple-500">
-    <div class="text-center text-white">
-        <h1 class="text-4xl font-bold mb-4">Welcome to Tailwind CSS</h1>
-        <p class="text-lg">A utility-first CSS framework for rapid UI development.</p>
-        <a href="#" class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg">Get Started</a>
-    </div>
 </div>
 
-<div class="h-[70vh]">
+</div>
+</div>
+</div>
 
+<!-- 5th section  -->
+ <div class="bg-white  mb-[-200px] ">
+<div class="flex 
 
-<h2 class="text-2xl font-bold mb-30 text-center mt-8">Why Choose Tailwind CSS?</h2>
+ justify-between w-[90%] md:w-[80%] lg:w-[80%] mx-auto rounded-lg p-5 items-center bg-[#efebe300]">
+
+    <!-- overflow -->
+<div class="lg:flex
+md:flex justify-between text-center  md:text-left lg:text-left  w-[100%] mx-auto rounded-lg p-5 items-center bg-[#EFEBE3]">
+    <div class="mx-auto md:mx-0 lg:mx-0"><img class="p-5 mx-auto w-[200px] md:w-[350px] lg:w-[350px]" src="assets/fruit-basket.png" alt=""></div>
 
 <div>
 
-<div class="flex justify-around items-center p-6 gap-2 shadow-lg rounded-lg mt-8">
-
-
-
-    <div class="max-w-4xl mx-auto p-6  text-white bg-[rgba(0,51,255,0.39)] shadow-lg rounded-lg mt-8">
-        
-
-
-        <ul class="list-disc pl-5 space-y-2">
-            <li>Utility-first approach for rapid development</li>
-            <li>Highly customizable with configuration files</li>
-            <li>Responsive design made easy with built-in classes</li>
-            <li>Large community and extensive documentation</li>
-        </ul>
-    </div>
-
-
-
-
-
-
-    
-     <div class="max-w-4xl mx-auto p-6 text-white bg-[rgba(0,51,255,0.39)] shadow-lg rounded-lg mt-8">
-        
-
-
-        <ul class="list-disc pl-5 space-y-2">
-            <li>Utility-first approach for rapid development</li>
-            <li>Highly customizable with configuration files</li>
-            <li>Responsive design made easy with built-in classes</li>
-            <li>Large community and extensive documentation</li>
-        </ul>
-    </div>
-
-
-
-
-
-     <div class="max-w-4xl mx-auto p-6 text-white bg-[rgba(0,51,255,0.39)] shadow-lg rounded-lg mt-8">
-        
-
-
-        <ul class="list-disc pl-5 space-y-2">
-            <li>Utility-first approach for rapid development</li>
-            <li>Highly customizable with configuration files</li>
-            <li>Responsive design made easy with built-in classes</li>
-            <li>Large community and extensive documentation</li>
-        </ul>
-    </div>
+    <h2 class="font-bold text-xl mb-1">Get Grocery News!</h2>
+    <p class="mb-5">Exclusive training tips, ticks, product deals and more.</p>
+    <input type="email" name="email" placeholder="Enter Your Gf Email" class="bg-white text-gray-300 w-[100%]  rounded-lg py-3 px-4"><br>
+   <div class=" text-center md:text-left lg:text-left"> <input class="py-1 px-3  text-xl mt-5 text-white rounded-sm bg-[#009863]" type="button"  value="Subscribe"></div>
+</div>
+</div>
 </div>
 
 </div>
+
+
+
+
+
+<!-- end of  -->
 </div>
 
 
+<!-- footer start from here  -->
+<footer class="bg-[#009863]  text-white">
 
-<div>
-
-
-
-
-<div class=" mx-[40px] h-[60vh] p-6  bg-[rgba(255,255,255,0.36)] mb-8 rounded-lg mt-8">
-    <h2 class="text-2xl font-bold mb-4 text-center mb-8"  >Get Started with Tailwind CSS</h2>
-    <p class="mb-4 text-center">To start using Tailwind CSS, you can either include it via CDN or install it using npm. Here’s how:</p>
-   <p class=" bg-gray-200 p-7 rounded-lg shadow-md text-zinc-700">
-
- // Using CDN
-            <br>
-            <br>
-            link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" <br> <br>
-
-            // Code Provided By Parvej Ahmed
-
-
-   </p>
-    </pre>
+<div class="bg-[#009863] md:flex lg:flex justify-between items-center pt-[350px] 
+mx-10   min-h-96">
 
 
 
+<div class="w-[100%] md:w-[20%] lg:w-[20%]">
 
 
+    <img class="mb-5" src="assets/logo-white.png" alt="logo">
+    <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+</div>
+<!-- nav menu  -->
+<div >
 
+<h2 class="mb-2 font-bold text-xl">Products</h2>
+<h2 class="mb-2 font-bold text-xl">Servies</h2>
+<h2 class="font-bold text-xl">About Us</h2>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-<footer class="bg-white  "  >
-
-
-<div>
-
-
-
-<div  class="flex justify-between items-center p-4 bg-white shadow-md">
-
-   
-
-<div class=" w-[30%] pl-[40px]">
-   <div class="flex items-center gap-2"> <img src="../assets/logo.png" width="80px" alt=""> <h2 class=" font-semibold text-center text-2xl text-blue-800">Tailwind Css</h2></div>
-
-
-<p class="pl-3 mb-2 hover:text-r">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-
-<div class="block  items-center justify-between space-x-4 mr-3">
-
-
-   <a class="text-1xl block font-bold text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]" href="index.html">Home</a>
-   <a class="text-1xl font-bold block  text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]"href="index.html">Docs</a>
-   <a class="text-1xl font-bold block  text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]"href="index.html"> Showcase</a>
-   <a class="text-1xl font-bold block  text-blue-500 focus:text-white hover:text-white hover:bg-slate-500 pr-3 pl-3 pt-1 pb-1 rounded-[10px]"href="index.html">About Us</a>
-</div>
-
-
-</div>
-
-
-<div class=" ">
-
-<div class="mb-7 text-center items-center ">
-  
-    <p class="text-gray-600 text-[20px] font-extrabold text-center">
-        FOLLLOW US 
-    </p>
-</div>
-
-
-
-<div class="block  text-center justify-between space-x-4 mr-3">
-
-
-   <a class="text-1xl bg-slate-500 ml-[60px] mr-[60px] mb-2 block font-bold text-white hover:text-blue-600 hover:bg-transparent hover:border pr-3 pl-3 pt-1 pb-1 rounded-[10px]" href="index.html">FACEBOOK</a>
-   
-   <a class="text-1xl bg-slate-500 ml-[60px]  mb-2 mr-[60px]  block font-bold text-white hover:text-blue-600 hover:bg-transparent hover:border pr-3 pl-3 pt-1 pb-1 rounded-[10px]" href="index.html">YOUTUBE</a>
-   
-   <a class="text-1xl bg-slate-500 ml-[60px] mb-2  mr-[60px]  block font-bold text-white hover:text-blue-600 hover:bg-transparent hover:border pr-3 pl-3 pt-1 pb-1 rounded-[10px]" href="index.html">INSTAGRAM</a>
-   
-   <a class="text-1xl bg-slate-500 ml-[60px]  mb-2 mr-[60px]  block font-bold text-white hover:text-blue-600 hover:bg-transparent hover:border pr-3 pl-3 pt-1 pb-1 rounded-[10px]" href="index.html">LINKIND</a>
+<!-- connect -->
+<div >
+<h2 class="mb-4 mt-3">Follow Us</h2>
+<i class="fa-brands fa-facebook mr-3"></i><i class="fa-brands fa-instagram mr-3"></i><i class="fa-brands fa-linkedin-in mr-3"></i><i class="fa-brands fa-youtube"></i>
 
 </div>
 
 
 </div>
-
-
-
-</div>
-
-
-
-    <div class="bg-white text-center p-4 mt-4 bs- ">
-       
-        <p class="text-gray-600">© 2025 Parvej Ahmed. All rights reserved.</p>
-        <p class="text-gray-600">Made with ❤️ using Tailwind CSS</p>
-    </div>
-
-
-
-
+<div class="text-center pb-2 pt-1 rounded-br-[100px]  rounded-tl-[100px] font-medium md:font-bold lg:font-bold mt-20 text-green-600 bg-white"><p> &copy; 2025 <a href="https://parvejahmed.top" target="_blank">Parvej Ahmed</a>. All rights reserved.</p></div>
 
 </footer>
-
 
 </body>
 </html>
